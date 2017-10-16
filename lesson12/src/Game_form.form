@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Game_form">
+  <grid id="27dc6" binding="gamePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="8" width="500" height="412"/>
+    </constraints>
+    <properties>
+      <preferredSize width="500" height="210"/>
+      <requestFocusEnabled value="true"/>
+      <toolTipText value=""/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="ad953" binding="AssociationPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <preferredSize width="500" height="200"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="bca87" class="javax.swing.JLabel" binding="answerLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <preferredSize width="120" height="30"/>
+          <text value="Answer"/>
+        </properties>
+      </component>
+      <component id="22e43" class="javax.swing.JTextField" binding="answerTextField" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="170" height="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8d259" class="javax.swing.JButton" binding="OKButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="100" height="30"/>
+          <text value="OK"/>
+        </properties>
+      </component>
+      <component id="7016a" class="javax.swing.JButton" binding="hintButton">
+        <constraints/>
+        <properties>
+          <preferredSize width="120" height="30"/>
+          <text value="Hint"/>
+        </properties>
+      </component>
+      <component id="6b88f" class="javax.swing.JLabel" binding="tryCountLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <preferredSize width="190" height="30"/>
+          <text value="TryCount"/>
+        </properties>
+      </component>
+      <component id="a7891" class="javax.swing.JButton" binding="giveUpButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="120" height="30"/>
+          <text value="Give up"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

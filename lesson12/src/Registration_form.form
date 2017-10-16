@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Registration_form">
+  <grid id="27dc6" binding="panel1" layout-manager="FlowLayout" hgap="5" vgap="20" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="381" height="315"/>
+    </constraints>
+    <properties>
+      <background color="-5594369"/>
+    </properties>
+    <border type="none" title="Registration" title-justification="2"/>
+    <children>
+      <component id="6a6e9" class="javax.swing.JLabel" binding="loginLabel">
+        <constraints/>
+        <properties>
+          <preferredSize width="120" height="30"/>
+          <requestFocusEnabled value="false"/>
+          <text value="login"/>
+        </properties>
+      </component>
+      <component id="456c8" class="javax.swing.JTextField" binding="loginTextField" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="130" height="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="869ff" class="javax.swing.JLabel" binding="passwordLabel">
+        <constraints/>
+        <properties>
+          <preferredSize width="120" height="30"/>
+          <text value="password&#10;"/>
+        </properties>
+      </component>
+      <component id="1c214" class="javax.swing.JTextField" binding="passwordTextField" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="130" height="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="db3c8" class="javax.swing.JLabel" binding="repeat_passwordLabel">
+        <constraints/>
+        <properties>
+          <preferredSize width="120" height="30"/>
+          <text value="repeat_password"/>
+        </properties>
+      </component>
+      <component id="17ddb" class="javax.swing.JTextField" binding="repeat_passwordTextField" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="130" height="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="da706" class="javax.swing.JLabel" binding="ageLabel">
+        <constraints/>
+        <properties>
+          <preferredSize width="120" height="30"/>
+          <text value="age"/>
+        </properties>
+      </component>
+      <component id="8012a" class="javax.swing.JTextField" binding="ageTextField" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="130" height="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9ff7" class="javax.swing.JButton" binding="registrationButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="130" height="30"/>
+          <text value="Registration"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
